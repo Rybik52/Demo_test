@@ -1,0 +1,63 @@
+footer {
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20%;
+}
+
+.footer__container {
+    width: fit-content;
+    height: 400px;
+    background: blue;
+    background-image: url('images/pratiksha-mohanty-BwpKvFuPm_U-unsplash 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.footer__container>h2>span {
+    color: #18BD4F;
+}
+
+
+.footer__container-input {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 500px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.footer__container-input>input {
+    border: none;
+    width: 400px;
+    padding: 12px 20px;
+    border-radius: 30px;
+
+}
+
+.footer__container-input>button {
+    background: #18BD4F;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 20px;
+    border: none;
+    -webkit-transition: ease all 300ms;
+    -moz-transition: ease all 300ms;
+    -o-transition: ease all 300ms;
+    transition: ease all 300ms;
+}
+
+.footer__container-input>button:hover {
+    background: #200E32;
+}

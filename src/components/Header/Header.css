@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@1&display=swap');
+header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 15% 4%;
+}
+
+
+.header__logo>a {
+    font-family: Sofia Sans;
+    font-size: 38px;
+    color: #18BD4F;
+}
+.header__logo>a::after {
+    content: '.';
+    color: #200E32;
+}
+
+.header__items {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    -moz-transition: ease all 300ms;
+    -webkit-transition: ease all 300ms;
+    -o-transition: ease all 300ms;
+    transition: ease all 300ms;
+
+}
+
+.header__items>a:hover { opacity: 0.8;}
+
+.header__burger {
+    width: 5%;
+    cursor: pointer;
+    display: none;
+}
+
+.header__burger-line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+  margin-bottom: 5px;
+}
