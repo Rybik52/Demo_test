@@ -23,10 +23,10 @@ export default function Header() {
         <div className="header__profile">
             <a href="/"><img src={ProfileIco} alt="Профиль" /></a>
         </div>
-        <div className="header__burger" onClick={setBurger(burger) => !burger}>
-              <span class="header__burger-line"></span>
-              <span class="header__burger-line"></span>
-              <span class="header__burger-line"></span>
+        <div className="header__burger">
+              <span className="header__burger-line"></span>
+              <span className="header__burger-line"></span>
+              <span className="header__burger-line"></span>
         </div>
     </header>
   )
